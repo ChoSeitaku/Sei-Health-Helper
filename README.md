@@ -2,6 +2,20 @@
 
 浏览器端健康习惯管理 Web 应用，集成 MediaPipe Pose 本地体态检测与 AI 建议。所有数据存储在浏览器 localStorage，摄像头画面不上传服务器。
 
+## 截图
+
+| 仪表盘 | 体态检测 | 喝水记录 |
+|:------:|:--------:|:--------:|
+| ![仪表盘](public/仪表盘.jpg) | ![体态检测](public/体态.jpg) | ![喝水记录](public/喝水.jpg) |
+
+| 提肛训练 | 护眼训练 | 颈椎放松 |
+|:--------:|:--------:|:--------:|
+| ![提肛训练](public/提肛.jpg) | ![护眼训练](public/护眼.jpg) | ![颈椎放松](public/颈椎.jpg) |
+
+| 数据统计 | 训练记录 | 设置 | 后台管理 |
+|:--------:|:--------:|:----:|:--------:|
+| ![数据统计](public/统计.jpg) | ![训练记录](public/记录.jpg) | ![设置](public/设置.jpg) | ![后台管理](public/后台.jpg) |
+
 ## 功能
 
 | 模块 | 说明 |
@@ -131,6 +145,18 @@ sei-pose-helper/
 │   ├── speech.ts               # Web Speech API 封装
 │   ├── posture-detector.ts     # MediaPipe Pose 封装 + 启发式姿态分析
 │   └── ai.ts                   # 前端 AI 请求封装
+├── public/
+│   ├── website.jpg              # 首页预览图
+│   ├── 仪表盘.jpg               # 仪表盘截图
+│   ├── 体态.jpg                 # 体态检测截图
+│   ├── 后台.jpg                 # 后台管理截图
+│   ├── 喝水.jpg                 # 喝水记录截图
+│   ├── 护眼.jpg                 # 护眼训练截图
+│   ├── 提肛.jpg                 # 提肛训练截图
+│   ├── 统计.jpg                 # 数据统计截图
+│   ├── 记录.jpg                 # 训练记录截图
+│   ├── 设置.jpg                 # 设置页截图
+│   └── 颈椎.jpg                 # 颈椎放松截图
 ├── .env.example
 ├── tsconfig.json
 ├── next.config.js
